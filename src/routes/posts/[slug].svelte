@@ -15,8 +15,11 @@
 </script>
 
 <script>
+  import Hello from '$lib/markdowns/posts/hello.md';
+
   export let post;
 </script>
 
 <!-- /posts/blog -->
 <h3>This is simply slug. {post.title}</h3>
+<Hello/>
