@@ -1,6 +1,6 @@
 <script>
   import Header from '$lib/Header.svelte';
-  import '../tailwind.css';
+  // import '../tailwind.css';
 
   let date = new Date().getFullYear();
 </script>
