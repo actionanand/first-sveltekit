@@ -1,3 +1,9 @@
+<script>
+
+import { append_hydration } from "svelte/internal";
+
+</script>
+<!-- if u keep the name as '__layout.reset.svelte', root layout won't appear. if u keep as '__layout.svelte', both the layouts will be visible when using nested routes -->
 <div>
   <slot/>
   <aside>
