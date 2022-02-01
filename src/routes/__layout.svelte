@@ -1,12 +1,13 @@
 <script>
   import Header from '$lib/Header.svelte';
+  import '../tailwind.css';
 
   let date = new Date().getFullYear();
 </script>
 
 
 <Header/>
-<main>
+<main class="bg-green-400">
   <slot/>
 </main>
 
@@ -14,9 +15,9 @@
   &copy; {date}
 </footer>
 
-<style lang="scss">
+<!-- <style lang="scss">
   /* Assigning global css */
   :global(header) {
     background: wheat;
   }
-</style>
+</style> -->

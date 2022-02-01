@@ -6,11 +6,11 @@
   </nav>
 </header>
 
-<style lang="scss">
+<!-- <style lang="scss">
   nav {
     a{
       text-decoration: none;
       background: green;
     }
   }
-</style>
+</style> -->
