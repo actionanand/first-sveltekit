@@ -1,5 +1,8 @@
 <script context="module">
   export async function load({params}) {
+    const Hello = (await import(`../../lib/markdowns/posts/${params.slug}.md`)); 
+    console.log({Hello});
+
     const post = {
       title: params.slug,
       date: new Date(),
@@ -8,15 +11,23 @@
 
     return {
       props: {
-        post
+        post,
+        Hello: Hello.default,
+        title: Hello.metadata.title
       }
     };
   }
 </script>
 
 <script>
+  // import Hello from '$lib/markdowns/posts/hello.md';
+
   export let post;
+  export let Hello;
+  export let title;
 </script>
 
 <!-- /posts/blog -->
 <h3>This is simply slug. {post.title}</h3>
+<h4>{title}</h4>
+<Hello/>

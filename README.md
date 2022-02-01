@@ -42,3 +42,13 @@ You can preview the production build with `npm run preview`.
 ## Resources
 
 - [Set up TailWind CSS in SvelteKit project](https://dev.to/randydigital/set-up-tailwind-css-in-sveltekit-project-557m)
+
+
+### Markdown in Svelte
+
+```bash
+npx svelte-add@latest mdsvex
+```
+
+- [Add mdsvex to Svelte](https://github.com/svelte-add/mdsvex)
+- [Mdsvex](https://mdsvex.pngwn.io/)
