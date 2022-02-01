@@ -1,4 +1,8 @@
-# Hello World
+---
+title: Hello World!
+---
+
+# {title}
 
 <!-- ```js
 alert('Hi');
