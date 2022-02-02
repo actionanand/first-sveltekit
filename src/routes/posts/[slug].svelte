@@ -25,7 +25,7 @@
 
         return {
           status: 404,
-          error: `Page '${params.slug}' not found!`
+          error: `The page '${params.slug}', you're looking for, not found!`,
         };
     }
   }
