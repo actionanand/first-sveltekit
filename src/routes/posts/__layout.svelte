@@ -25,7 +25,7 @@
     <h5>Archives</h5>
     <ul>
       {#each posts as post}
-        <li><a href="{post.slug}">{post.title}</a></li>
+        <li><a href="/posts/{post.slug}">{post.title}</a></li>
       {/each}
       <li><a href="/posts">Home</a></li>
       <li><a href="/posts/about">About</a></li>
