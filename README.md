@@ -52,3 +52,5 @@ npx svelte-add@latest mdsvex
 
 - [Add mdsvex to Svelte](https://github.com/svelte-add/mdsvex)
 - [Mdsvex](https://mdsvex.pngwn.io/)
+- [Useful npm Tips and Tricks that Developers Should Know](https://www.labnol.org/npm-command-tricks-210824)
+- [@sveltejs/adapter-static](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
